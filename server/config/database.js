@@ -9,9 +9,9 @@ exports.connect = () => {
 			useNewUrlparser: true,
 			useUnifiedTopology: true,
 		})
-		.then(console.log(`DB Connection Success`))
+		.then(console.log(`Database Connection Successful`))
 		.catch((err) => {
-			console.log(`DB Connection Failed`);
+			console.log(`Database Connection Failed`);
 			console.log(err);
 			process.exit(1);
 		});
